@@ -1,0 +1,7 @@
+# requirements.txt
+transformers==4.49
+datasets==3.6.0
+pandas
+scikit-learn
+torch>=2.6.0 # or tensorflow
+accelerate # for Trainer functionality

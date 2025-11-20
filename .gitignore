@@ -1,0 +1,17 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment
+venv/
+.venv/
+env/
+.env/
+conda_env/
+
+# Training Outputs (Large Files/Intermediate Results)
+# The trained model weights (large binaries) and intermediate Trainer files
+finbert_results_gpu/
+model_artifacts/
