@@ -1,7 +1,18 @@
-# requirements.txt
+# PyTorch + CUDA 12.1 wheels
+torch==2.5.1+cu121
+torchvision==0.20.1+cu121
+torchaudio==2.5.1+cu121
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+# HuggingFace ecosystem
 transformers==4.49
 datasets==3.6.0
-pandas
-scikit-learn
-torch>=2.6.0 # or tensorflow
-accelerate # for Trainer functionality
+accelerate==1.0.1
+
+# Tokenizers & ML
+scikit-learn==1.5.2
+numpy>=1.26.0
+pandas>=2.0.0
+
+# Optional but recommended
+tqdm>=4.66.0
