@@ -16,3 +16,7 @@ pandas>=2.0.0
 
 # Optional but recommended
 tqdm>=4.66.0
+
+fastapi
+uvicorn
+pydantic
